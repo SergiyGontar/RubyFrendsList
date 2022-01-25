@@ -1,0 +1,23 @@
+<div id="<%= dom_id friend %>", class="table">
+  
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">First name:</th>
+        <th scope="col">Last name:</th>
+        <th scope="col">Email:</th>
+        <th scope="col">Phone:</th>
+        <th scope="col">Twitter:</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><%= link_to friend.first_name, friend %></td>
+        <td><%= friend.last_name %></td>
+        <td><%= friend.email %></td>
+        <td><%= friend.phone %></td>
+        <td><%= friend.twitter %></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
